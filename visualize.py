@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 file_path = "data/test/R19061119368410.h5"
 
 # Open the .h5 file
-with h5py.File(file_path, "r") as h5_file:
+with h5py.File(file_path, "r") as h5_file:  
     data = h5_file["ir069"]  # Reference the dataset
 
     # Loop through the first 5 slices along the third dimension
