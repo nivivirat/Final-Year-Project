@@ -16,7 +16,7 @@ def full_attention(input_shape):
     return cuboid_size, strategy, shift_size
 
 def self_axial(input_shape):
-    """Axial attention proposed in https://arxiv.org/abs/1912.12180
+    """Axial attention proposed in https://arxiv.org/w/1912.12180
 
     Parameters
     ----------
